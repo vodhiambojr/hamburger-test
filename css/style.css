@@ -7,7 +7,7 @@ body {
 	height: 2000px;
 }
 .home{
-	height: 600px;
+	height: 500px;
 	padding-top: auto;
 	color: #fcfdfd;
 	-webkit-font-smoothing: antialiased;
@@ -16,30 +16,29 @@ body {
 
   }
   .projects{
-	height: 700px;
+	height: 500px;
 	padding-top: 20px;
 	color: #fcfdfd;
   }
-  .projects1{
-	height: 700px;
-	padding-top: 20px;
-	color: #fcfdfd;
-  }
+
   .about{
-	height: 400px;
+	height: 500px;
 	padding-top: 20px;
 	width: auto;
 	border-radius: 100px;
 	color: #fcfdfd;
   }
-  .Contacts{
-	height: 500px;
+  .contacts{
+	height: 300px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	color: #fcfdfd;
+	width: auto;
   }
 .pic{
-	border-radius: 50%;
+	border-radius: 80%;
+	margin-left: 50px;
+	margin-top: 20px;
 
 }
 ul {
@@ -56,7 +55,7 @@ nav {
 	text-align:left;
 	width:100%;
 	position:relative;
-	height:70px;
+	height:80px;
 	overflow:hidden;
 	background:none;
 	margin-top: 20px;
@@ -81,7 +80,7 @@ nav ul li a {
 	font-size:16px;
 }
 nav ul li a:hover {
-	color: #34B484;
+	color: #fff;
 }
 /*styling open close button*/
 .button {
@@ -105,7 +104,7 @@ nav ul li a:hover {
 	-o-transition:all .2s linear 0s;
 }
 .btn-open:hover:after {
-	color:#34B484;
+	color:#fff;
 }
 .btn-close:after {
 	color:#fff;
@@ -117,7 +116,7 @@ nav ul li a:hover {
 	-o-transition:all .2s linear 0s;
 }
 .btn-close:hover:after {
-	color: #34B484;
+	color: #fff;
 }
 /*overlay*/
 .overlay {
@@ -150,7 +149,7 @@ nav ul li a:hover {
 	position:relative;
 }
 .wrap ul.wrap-nav li a {
-	color:#34B484;
+	color:#fff;
 	display:block;
 	padding:8px 0;
 	text-decoration:none;
@@ -175,7 +174,7 @@ nav ul li a:hover {
 	color:#f0f0f0;
 }
 .wrap ul.wrap-nav ul li a:hover {
-	color:#34B484;
+	color:#fff;
 }
 .social {
 	font-size:25px;
@@ -261,11 +260,11 @@ canvas {
   }
   
   a:hover {
-	color: #fc3565;
+	color: #fdfcfc;
   }
   
   h1 {
-	color: #fc3565;
+	color: #f8f6f6;
 	padding-bottom: 0px;
 	margin-bottom: 1%;
   }
@@ -357,3 +356,21 @@ canvas {
 	  font-size: 4rem;
 	}
   }
+
+  #contact {
+	background-color: #333; }
+	#contact h2 {
+	  color: #f8fafa; }
+  
+  .contact-social-icons p {
+	color: #333; }
+  .contact-social-icons ul a {
+	color: #fafcfb;
+	list-style: none; }
+	.contact-social-icons ul a:hover {
+	  color: rgb(7, 7, 7); }
+	.contact-social-icons ul a li {
+	  display: inline-block;
+	  padding: 2%; }
+
+	  
