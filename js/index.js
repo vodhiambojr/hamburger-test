@@ -25,7 +25,7 @@ $.getJSON("https://cpv2api.com/pens/showcase/j-w-v", function(resp){
 	}
 }); 
 
-
+//the particle background action
 particlesJS("particles-js", {
   "particles": {
     "number": {
@@ -136,4 +136,14 @@ particlesJS("particles-js", {
   },
   "retina_detect": true
 });
+
+//the text fade in effect
+$(document).ready(restart());
+
+function restart(){
+  $('.text').css({'top': '40px'}),
+  $('.text').css({'display': 'none'}),
+  $('.text').animate({'top': 0}, {"duration":3000,"queue":false});
+  $('.text').fadeIn(3000);
+}
 

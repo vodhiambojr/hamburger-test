@@ -1,5 +1,5 @@
-# Unsplash Clone
-This is a web application mimicry of hamberger menu functionalities
+# hamburger menu
+This is a web application mimicry of hamburger menu functionalities
 
 ## Created by [Victor Odhiambo](https://github.com/vodhiambojr/hamburger-test)
 
@@ -20,8 +20,6 @@ a web application actualizing personalized portfolio and hamburger personality
 * none
 
 ## Technologies Used
-* Python3.6 
-* Django
 * Bootstrap
 * Css
 * HTML
